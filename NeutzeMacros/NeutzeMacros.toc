@@ -1,0 +1,12 @@
+## Interface: 16001, 11509
+## Title: Neutze's Macros
+## Notes: Pick your class spec and click a spell to get its macro on this character (one ability per macro). /nm
+## Author: Johannes (written with Claude)
+## Version: 0.0.1
+## IconTexture: Interface\AddOns\NeutzeMacros\icon
+## Category: Action Bars
+## Group: Neutze's
+## SavedVariablesPerCharacter: NeutzeMacrosCharDB
+
+NeutzeMacros_Data.lua
+NeutzeMacros.lua

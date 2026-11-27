@@ -1,0 +1,10 @@
+package-as: NeutzeMacros
+
+ignore:
+  - README.md
+  - .github
+  - art
+
+manual-changelog:
+  filename: CHANGELOG.md
+  markup-type: markdown
