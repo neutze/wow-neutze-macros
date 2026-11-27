@@ -4,6 +4,7 @@ ignore:
   - README.md
   - .github
   - art
+  - screenshots
 
 manual-changelog:
   filename: CHANGELOG.md
