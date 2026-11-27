@@ -7,7 +7,7 @@ Class macros for **World of Warcraft: Forever**, one click each.
 Open `/nm` (or Options > AddOns > Neutze's Pantry > Neutze's Macros) and pick your spec. You get a grid of spell buttons. Click one and its macro is created on this character, or updated if it already exists, and put on your cursor so you can drop it on a bar. **Create / update all** does the whole spec in one go.
 
 - **One ability per macro.** Where a stance or form is needed, the macro switches first, then uses the ability. In WoW Forever that takes two presses.
-- Melee abilities start auto-attack. Caster spells don't, so wanding isn't interrupted.
+- Melee abilities start auto-attack. Mage, priest and warlock damage spells start the wand too: the macro casts the spell, then `/cast !Shoot` at your target, which never toggles a running wand off. Crowd control, AoE, the non-damage curses and utility spells leave the wand alone, so they can't break a Polymorph or Fear.
 - Mouseover where it helps: `[@mouseover,harm,nodead][harm,nodead]` for attacks, `[@mouseover,help,nodead][help,nodead][@player]` for heals.
 - Presets for all 9 classes and their specs. Warrior includes the stance-dance set from Cynara's *UPDATED Warrior Macros (WoW Forever)*: focus Pummel, Death Wish and Recklessness with trinkets, Challenging Shout with Limited Invulnerability Potion, Intimidating Shout with stop-attack, auto Shoot/Throw, Stop Queue.
 - Macros are per character. Free character macro slots are checked first.

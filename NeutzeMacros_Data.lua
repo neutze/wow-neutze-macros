@@ -206,7 +206,8 @@ NeutzeMacros.DATA = {
     { name="Heal", body=[==[#showtooltip Heal
 /cast [@mouseover,help,nodead][help,nodead][@player] Heal]==] },
     { name="Holy Fire", body=[==[#showtooltip Holy Fire
-/cast [@mouseover,harm,nodead][harm,nodead] Holy Fire]==] },
+/cast [@mouseover,harm,nodead][harm,nodead] Holy Fire
+/cast [nochanneling,harm,nodead] !Shoot]==] },
     { name="Inner Fire", body=[==[#showtooltip Inner Fire
 /cast Inner Fire]==] },
     { name="Inner Focus", body=[==[#showtooltip Inner Focus
@@ -214,9 +215,11 @@ NeutzeMacros.DATA = {
     { name="Lesser Heal", body=[==[#showtooltip Lesser Heal
 /cast [@mouseover,help,nodead][help,nodead][@player] Lesser Heal]==] },
     { name="Mind Blast", body=[==[#showtooltip Mind Blast
-/cast [@mouseover,harm,nodead][harm,nodead] Mind Blast]==] },
+/cast [@mouseover,harm,nodead][harm,nodead] Mind Blast
+/cast [nochanneling,harm,nodead] !Shoot]==] },
     { name="Mind Flay", body=[==[#showtooltip Mind Flay
-/cast [@mouseover,harm,nodead][harm,nodead] Mind Flay]==], specs={"Shadow"} },
+/cast [@mouseover,harm,nodead][harm,nodead] Mind Flay
+/cast [nochanneling,harm,nodead] !Shoot]==], specs={"Shadow"} },
     { name="PW Shield", body=[==[#showtooltip Power Word: Shield
 /cast [@mouseover,help,nodead][help,nodead][@player] Power Word: Shield]==] },
     { name="Power Infusion", body=[==[#showtooltip Power Infusion
@@ -228,13 +231,15 @@ NeutzeMacros.DATA = {
     { name="Renew", body=[==[#showtooltip Renew
 /cast [@mouseover,help,nodead][help,nodead][@player] Renew]==] },
     { name="SW Pain", body=[==[#showtooltip Shadow Word: Pain
-/cast [@mouseover,harm,nodead][harm,nodead] Shadow Word: Pain]==] },
+/cast [@mouseover,harm,nodead][harm,nodead] Shadow Word: Pain
+/cast [nochanneling,harm,nodead] !Shoot]==] },
     { name="Shadowform", body=[==[#showtooltip Shadowform
 /cast Shadowform]==], specs={"Shadow"} },
     { name="Silence", body=[==[#showtooltip Silence
 /cast [@mouseover,harm,nodead][harm,nodead] Silence]==], specs={"Shadow"} },
     { name="Smite", body=[==[#showtooltip Smite
-/cast [@mouseover,harm,nodead][harm,nodead] Smite]==] },
+/cast [@mouseover,harm,nodead][harm,nodead] Smite
+/cast [nochanneling,harm,nodead] !Shoot]==] },
     { name="Vampiric Embrace", body=[==[#showtooltip Vampiric Embrace
 /cast Vampiric Embrace]==], specs={"Shadow"} },
     { name="Weapon Buff", body=[==[#showtooltip
@@ -320,25 +325,31 @@ NeutzeMacros.DATA = {
   },
   WARLOCK = {
     { name="Agony", body=[==[#showtooltip Curse of Agony
-/cast [@mouseover,harm,nodead][harm,nodead] Curse of Agony]==] },
+/cast [@mouseover,harm,nodead][harm,nodead] Curse of Agony
+/cast [nochanneling,harm,nodead] !Shoot]==] },
     { name="Banish", body=[==[#showtooltip Banish
 /cast [@mouseover,harm,nodead][harm,nodead] Banish]==] },
     { name="Conflagrate", body=[==[#showtooltip Conflagrate
-/cast [@mouseover,harm,nodead][harm,nodead] Conflagrate]==], specs={"Destruction"} },
+/cast [@mouseover,harm,nodead][harm,nodead] Conflagrate
+/cast [nochanneling,harm,nodead] !Shoot]==], specs={"Destruction"} },
     { name="Corruption", body=[==[#showtooltip Corruption
-/cast [@mouseover,harm,nodead][harm,nodead] Corruption]==] },
+/cast [@mouseover,harm,nodead][harm,nodead] Corruption
+/cast [nochanneling,harm,nodead] !Shoot]==] },
     { name="Death Coil", body=[==[#showtooltip Death Coil
-/cast [@mouseover,harm,nodead][harm,nodead] Death Coil]==] },
+/cast [@mouseover,harm,nodead][harm,nodead] Death Coil
+/cast [nochanneling,harm,nodead] !Shoot]==] },
     { name="Demon Armor", body=[==[#showtooltip Demon Armor
 /cast Demon Armor]==] },
     { name="Demon Skin", body=[==[#showtooltip Demon Skin
 /cast Demon Skin]==] },
     { name="Drain Life", body=[==[#showtooltip Drain Life
-/cast [@mouseover,harm,nodead][harm,nodead] Drain Life]==] },
+/cast [@mouseover,harm,nodead][harm,nodead] Drain Life
+/cast [nochanneling,harm,nodead] !Shoot]==] },
     { name="Drain Mana", body=[==[#showtooltip Drain Mana
 /cast [@mouseover,harm,nodead][harm,nodead] Drain Mana]==] },
     { name="Drain Soul", body=[==[#showtooltip Drain Soul
-/cast [@mouseover,harm,nodead][harm,nodead] Drain Soul]==] },
+/cast [@mouseover,harm,nodead][harm,nodead] Drain Soul
+/cast [nochanneling,harm,nodead] !Shoot]==] },
     { name="Elements", body=[==[#showtooltip Curse of the Elements
 /cast [@mouseover,harm,nodead][harm,nodead] Curse of the Elements]==] },
     { name="Fear", body=[==[#showtooltip Fear
@@ -348,19 +359,24 @@ NeutzeMacros.DATA = {
     { name="Howl of Terror", body=[==[#showtooltip Howl of Terror
 /cast Howl of Terror]==] },
     { name="Immolate", body=[==[#showtooltip Immolate
-/cast [@mouseover,harm,nodead][harm,nodead] Immolate]==] },
+/cast [@mouseover,harm,nodead][harm,nodead] Immolate
+/cast [nochanneling,harm,nodead] !Shoot]==] },
     { name="Life Tap", body=[==[#showtooltip Life Tap
 /cast Life Tap]==] },
     { name="Rain of Fire", body=[==[#showtooltip Rain of Fire
 /cast [@cursor] Rain of Fire]==] },
     { name="Searing Pain", body=[==[#showtooltip Searing Pain
-/cast [@mouseover,harm,nodead][harm,nodead] Searing Pain]==] },
+/cast [@mouseover,harm,nodead][harm,nodead] Searing Pain
+/cast [nochanneling,harm,nodead] !Shoot]==] },
     { name="Shadow Bolt", body=[==[#showtooltip Shadow Bolt
-/cast [@mouseover,harm,nodead][harm,nodead] Shadow Bolt]==] },
+/cast [@mouseover,harm,nodead][harm,nodead] Shadow Bolt
+/cast [nochanneling,harm,nodead] !Shoot]==] },
     { name="Shadowburn", body=[==[#showtooltip Shadowburn
-/cast [@mouseover,harm,nodead][harm,nodead] Shadowburn]==], specs={"Destruction"} },
+/cast [@mouseover,harm,nodead][harm,nodead] Shadowburn
+/cast [nochanneling,harm,nodead] !Shoot]==], specs={"Destruction"} },
     { name="Siphon Life", body=[==[#showtooltip Siphon Life
-/cast [@mouseover,harm,nodead][harm,nodead] Siphon Life]==], specs={"Affliction"} },
+/cast [@mouseover,harm,nodead][harm,nodead] Siphon Life
+/cast [nochanneling,harm,nodead] !Shoot]==], specs={"Affliction"} },
     { name="Soulstone", body=[==[#showtooltip Soulstone Resurrection
 /cast [@mouseover,help,nodead][help,nodead][@player] Soulstone Resurrection]==] },
     { name="Tongues", body=[==[#showtooltip Curse of Tongues
@@ -378,7 +394,8 @@ NeutzeMacros.DATA = {
     { name="Arcane Intellect", body=[==[#showtooltip Arcane Intellect
 /cast [@mouseover,help,nodead][help,nodead][@player] Arcane Intellect]==] },
     { name="Arcane Missiles", body=[==[#showtooltip Arcane Missiles
-/cast [@mouseover,harm,nodead][harm,nodead] Arcane Missiles]==] },
+/cast [@mouseover,harm,nodead][harm,nodead] Arcane Missiles
+/cast [nochanneling,harm,nodead] !Shoot]==] },
     { name="Blink", body=[==[#showtooltip Blink
 /cast Blink]==] },
     { name="Blizzard", body=[==[#showtooltip Blizzard
@@ -395,9 +412,11 @@ NeutzeMacros.DATA = {
     { name="Evocation", body=[==[#showtooltip Evocation
 /cast Evocation]==] },
     { name="Fire Blast", body=[==[#showtooltip Fire Blast
-/cast [@mouseover,harm,nodead][harm,nodead] Fire Blast]==] },
+/cast [@mouseover,harm,nodead][harm,nodead] Fire Blast
+/cast [nochanneling,harm,nodead] !Shoot]==] },
     { name="Fireball", body=[==[#showtooltip Fireball
-/cast [@mouseover,harm,nodead][harm,nodead] Fireball]==] },
+/cast [@mouseover,harm,nodead][harm,nodead] Fireball
+/cast [nochanneling,harm,nodead] !Shoot]==] },
     { name="Flamestrike", body=[==[#showtooltip Flamestrike
 /cast [@cursor] Flamestrike]==] },
     { name="Frost Armor", body=[==[#showtooltip Frost Armor
@@ -405,7 +424,8 @@ NeutzeMacros.DATA = {
     { name="Frost Nova", body=[==[#showtooltip Frost Nova
 /cast Frost Nova]==] },
     { name="Frostbolt", body=[==[#showtooltip Frostbolt
-/cast [@mouseover,harm,nodead][harm,nodead] Frostbolt]==] },
+/cast [@mouseover,harm,nodead][harm,nodead] Frostbolt
+/cast [nochanneling,harm,nodead] !Shoot]==] },
     { name="Ice Barrier", body=[==[#showtooltip Ice Barrier
 /cast Ice Barrier]==], specs={"Frost"} },
     { name="Ice Block", body=[==[#showtooltip Ice Block
@@ -417,9 +437,11 @@ NeutzeMacros.DATA = {
     { name="Presence of Mind", body=[==[#showtooltip Presence of Mind
 /cast Presence of Mind]==], specs={"Arcane"} },
     { name="Pyroblast", body=[==[#showtooltip Pyroblast
-/cast [@mouseover,harm,nodead][harm,nodead] Pyroblast]==], specs={"Fire"} },
+/cast [@mouseover,harm,nodead][harm,nodead] Pyroblast
+/cast [nochanneling,harm,nodead] !Shoot]==], specs={"Fire"} },
     { name="Scorch", body=[==[#showtooltip Scorch
-/cast [@mouseover,harm,nodead][harm,nodead] Scorch]==] },
+/cast [@mouseover,harm,nodead][harm,nodead] Scorch
+/cast [nochanneling,harm,nodead] !Shoot]==] },
     { name="Weapon Buff", body=[==[#showtooltip
 /use Minor Wizard Oil
 /use 16

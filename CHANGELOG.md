@@ -1,6 +1,7 @@
 # Changelog
 
 ## Unreleased
+- Mage, priest and warlock damage spells (22 presets) also start wand Shoot at the target. Click the spell again in `/nm` to update an existing macro.
 - Now requires Neutze's Pantry. The options page moved under Options > AddOns > Neutze's Pantry.
 
 ## v0.0.1 — 2026-11-27
