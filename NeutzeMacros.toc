@@ -6,6 +6,7 @@
 ## IconTexture: Interface\AddOns\NeutzeMacros\icon
 ## Category: Action Bars
 ## Group: Neutze's
+## Dependencies: NeutzePantry
 ## SavedVariablesPerCharacter: NeutzeMacrosCharDB
 
 NeutzeMacros_Data.lua
