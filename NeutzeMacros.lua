@@ -84,7 +84,7 @@ end
 -- ---------- panel: spec dropdown + a grid of spell buttons ----------
 local panel = CreateFrame("Frame")
 panel.name = "Neutze's Macros"
-local category, scroll, content, specDD, Build
+local scroll, content, specDD, Build
 local CONTENT_W = 600
 
 local function Grid(parent, anchor)
@@ -189,16 +189,11 @@ panel:SetScript("OnShow", function(self)
   BuildPanel(self)
 end)
 
-if Settings and Settings.RegisterCanvasLayoutCategory and Settings.RegisterAddOnCategory then
-  category = Settings.RegisterCanvasLayoutCategory(panel, panel.name)
-  Settings.RegisterAddOnCategory(category)
-elseif InterfaceOptions_AddCategory then
-  InterfaceOptions_AddCategory(panel)
-end
+-- options page under Neutze's Pantry (Options > AddOns > Neutze's Pantry > Neutze's Macros)
+local OpenPanel = NeutzePantry.AddSubPage(panel)
 
 function NM.Open()
-  if category and Settings and Settings.OpenToCategory then Settings.OpenToCategory(category:GetID())
-  elseif InterfaceOptionsFrame_OpenToCategory then InterfaceOptionsFrame_OpenToCategory(panel); InterfaceOptionsFrame_OpenToCategory(panel) end
+  OpenPanel()
 end
 
 SLASH_NEUTZEMACROS1 = "/nm"
